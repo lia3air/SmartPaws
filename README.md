@@ -2,6 +2,8 @@
 
 ### `npm i`
 
+# Getting Started on Browser
+
 ### `npm start`
 
 # Getting Started on iPhone
