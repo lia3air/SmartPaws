@@ -8,8 +8,15 @@
 
 ### `npm run build`
 
-### `npx cap init [name] [id] --web-dir=build`
-
-### `npx cap add ios`
+### `npx cap sync`
 
 ### `npx cap open ios`
+
+# Getting Started on Android
+
+### `npm run build`
+
+### `npx cap sync`
+
+### `npx cap open android`
+
