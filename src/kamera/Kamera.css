@@ -1,0 +1,103 @@
+.text-box{
+
+    padding: 10px 20px 10px  20px;
+    background-color: #61dafb;
+}
+
+ion-content {
+    --background: transparent;
+}
+
+.my-custom-camera-preview-content {
+    --background: transparent;
+}
+.progressbar{
+    width: 100%;
+    max-width: 600px;
+
+}
+.container {
+    background-color: pink;
+}
+
+.barCompleted {
+    background-color: lightblue;
+
+}
+.camera-content{
+    position: relative;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+
+}
+.step-content {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem;
+    background: #FDF8F4;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.step-headline{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #f96400;
+}
+.overlay-div{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-color: rgba(248,139,51,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count-down{
+    font-size: 5rem;
+    color:#f96400;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.status {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem;
+    background: #FDF8F4;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 75vw;
+
+}
+.second-headline-step{
+    color:#f96400;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-weight: bold;
+}
+.step-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.reward-div{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+    align-items: center;
+}

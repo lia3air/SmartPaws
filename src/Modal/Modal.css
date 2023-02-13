@@ -1,0 +1,50 @@
+
+.modal{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.modal-content{
+    background-color: #FDF8F4;
+    width: 100%;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.rewards-headline{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #f96400;
+    margin-bottom: 1rem;
+}
+.rewards-text{
+    margin-bottom: 2rem;
+}
+.close-div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.lesson-status{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: #f96400;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.rewards{
+   display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    justify-content: space-between;
+}

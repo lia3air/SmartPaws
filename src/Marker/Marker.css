@@ -1,0 +1,26 @@
+.Marker {
+    width: 100vw;
+    height: 100vh;
+    background-color:#f96400 ;
+}
+
+.marker-text{
+    font-size: 3rem;
+    color:#FDF8F4;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.marker-text-div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    gap: 1rem;
+}
