@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "^4.6.3",
     "@capacitor/core": "^4.6.1",
-    "@capacitor/ios": "^4.6.1",
+    "@capacitor/ios": "^4.6.3",
     "@ramonak/react-progress-bar": "^5.0.3",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
